@@ -16,6 +16,7 @@
     - pip install sqlalchemy
     - pip install urllib
     - pip install hashlib
+    - pip install pyodbc
     
 3.  Após realizar os passos podemos executar nosso servidor pelo terminal com o comando:
     - uvicorn main:app --reload
