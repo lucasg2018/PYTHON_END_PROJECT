@@ -60,7 +60,7 @@ def alter_null(columns: list, df: pd.DataFrame) -> pd.DataFrame:
 #######################################################################################
 
 
-#Função responsável por realizar a alteração em uma lista de colunas que forem nulas para ' '
+#Função responsável por converter os caracteres especiais para formato hexadecimal
 def hex_letter(word: str) -> str:
     
     hex_word = ''
